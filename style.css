@@ -1,0 +1,103 @@
+/*
+CONTENTS
+       
+ I.        * / root variables / and body  
+ II.       nav 
+III.      sytling utility classes 
+
+ ___________________________________
+ ___________________________________
+ I. * / root / and body  
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+nav {
+          display: flex;
+          align-items: center;
+          /* justify-content: space-between; */
+          padding-left: 1rem;
+          width: 100%;
+          background-color: black;
+          color: white;
+          min-height: 3rem;
+}
+
+body {
+          color: black;
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          height: 100vh;
+          background: rgb(68,244,245);
+          /* text-shadow: 1px 1px 5px black, -1px 1px 5px black, -1px -1px 5px black, 0px 0px 5px black; */
+}
+
+.title {
+          padding-left: 2rem;
+}
+
+.caps {
+          text-transform: uppercase;
+}
+
+.underline {
+          text-decoration: underline;
+}
+
+.hide {
+          display: none;
+}
+
+main {
+          display: flex;
+          flex-direction: column;
+}
+
+.club-image {
+          height: 10rem;
+          width: 10rem;
+          background-size: cover;
+          border: 1px solid black;
+          border-radius: 10px;
+          box-shadow: 5px 5px 10px rgb(0,0,0);
+}
+
+.container {
+          display: grid;
+}
+
+section {
+          color: black;
+                    margin: 1rem auto 1rem auto;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 90vw;
+          justify-content: center;
+          align-items: space-around;
+          border: 3px solid rgba(255,255,255,0.4);
+          border-radius: 10px;
+          background-color: rgba(255,255,255,0.6);
+
+}
+
+article, img, p, .section-heading, .subheading {
+          margin: 1rem;
+}
+
+ol {
+          position: relative;
+          transform: translateX(3rem);
+          line-height: 1.7rem;
+}
+
+ol:last-child{
+          margin-bottom: 1rem;
+}
