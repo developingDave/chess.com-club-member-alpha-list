@@ -1,5 +1,5 @@
 // grabbing text-placeholders and madlibs-ing in some fetched data
-const clubName="dalton-chess-league"
+const clubName="baker-street-irregulars"
 const anywhereItSaysTheClubName = document.querySelectorAll('.club-name');
 const anywhereItSaysMemberCount = document.querySelectorAll('.member-count');
 const anywhereItSaysLocation = document.querySelectorAll('.location');
